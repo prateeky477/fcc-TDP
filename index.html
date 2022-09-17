@@ -1,0 +1,112 @@
+<nav id="navbar">
+    <header>
+        TDP</header>
+    <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Markup">Markup</a></li>
+        <li><a class="nav-link" href="#Elements">Elements</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#Element_examples">Element examples</a></li>
+        <li><a class="nav-link" href="#Headings">Headings</a></li>
+    </ul>
+</nav>
+<link rel="stylesheet" href="index.css">
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>
+            Introduction
+        </header>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed
+            in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting
+            languages such as JavaScript.</p>
+        <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into
+            multimedia web pages. HTML describes the structure of a web page semantically and originally included cues
+            for the appearance of the document.</p>
+    </section>
+    <section class="main-section" id="Markup">
+        <header>Markup</header>
+        <p>HTML markup consists of several key components, including those called tags (and their attributes),
+            character-based data types, character references and entity references. HTML tags most commonly come in
+            pairs like <code><h1> </h1></code>,although some represent empty elements and so are unpaired, for example
+            <img>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called
+            opening tags and closing tags).
+
+        </p>
+        <p>Another important component is the HTML document type declaration, which triggers standards mode rendering.
+
+        </p>
+        <p>The following is an example of the classic "Hello, World!" program:</p>
+        <code><!DOCTYPE html>
+  <html>
+    <head>
+      <title>This is a title</title>
+    </head>
+    <body>
+      <div>
+          <p>Hello world!</p>
+      </div>
+    </body>
+  </html></code>
+    </section>
+    <section class="main-section" id="Elements">
+        <header>Elements</header>
+        <p>HTML documents imply a structure of nested HTML elements. These are indicated in the document by HTML tags,
+            enclosed in angle brackets thus:
+        <p>.
+        <p>In the simple, general case, the extent of an element is indicated by a pair of tags: a "start tag"
+        <p> and "end tag" </p>. The text content of the element, if any, is placed between these tags.
+        </p>
+        <p>
+            The start tag may also include element's attributes within the tag. These indicate other information, such
+            as identifiers for sections within the document, identifiers used to bind style information to the
+            presentation of the document, and for some tags such as the <img> used to embed images, the reference to the
+            image resource in the format like this: <code><img src="example.com/example.jpg">
+  </code>
+        </p>
+    </section>
+    <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <p>HTML defines several data types for element content, such as script data and stylesheet data, and a plethora
+            of types for attribute values, including IDs, names, URIs, numbers, units of length, languages, media
+            descriptors, colors, character encodings, dates and times, and so on. All of these data types are
+            specializations of character data.</p>
+
+
+        <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime
+            system based on a small number of data types representing numeric, Boolean, and string values. JavaScript
+            has a prototype-based object model instead of the more common class-based object model. The prototype-based
+            model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript
+            also supports functions without any special declarative requirements. Functions can be properties of
+            objects, executing as loosely typed methods.</p>
+    </section>
+    <section class="main-section" id="Element_examples">
+        <header>Element examples</header>
+        <p>
+            Header of the HTML document: <code><head>...</head></code>. The title is included in the head, for example:
+        </p>
+        <p><code><head>
+    <title>The Title</title>
+    <link rel="stylesheet" href="stylebyjimbowales.css" /> <!-- Imports Stylesheets -->
+  </head></code></p>
+    </section>
+    <section class="main-section" id="Headings">
+        <header>Headings</header>
+        <p>HTML headings are defined with the <code>
+    <h1>-<h6>
+     </code>tags with H1 being the highest (or most important) level and H6 the least:
+        </p>
+        <p>
+            <code>
+                <ul>
+                    <li><h1>Heading level 1</h1></li>
+                    <li><h2>Heading level 2</h2></li>
+                    <li><h3>Heading level 3</h3></li>
+                    <li><h4>Heading level 4</h4></li>
+                    <li><h5>Heading level 5</h5></li>
+                    <li><h6>Heading level 6</h6></li>
+                </ul>
+            </code>
+        </p>
+    </section>
+
+</main>
